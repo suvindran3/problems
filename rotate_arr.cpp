@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void printArr(vector<int> &nums)
+void printNumArr(vector<int> &nums)
 {
     cout << "Rotated array: [ ";
     for (auto ele : nums)
@@ -47,5 +47,5 @@ int main()
 {
     vector<int> nums = {1, 2};
     rotate(nums, 1);
-    printArr(nums);
+    printNumArr(nums);
 }
