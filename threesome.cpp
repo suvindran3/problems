@@ -3,7 +3,7 @@
 #include <set>
 using namespace std;
 
-void printArr(vector<int> &arr)
+void printNumArr(vector<int> &arr)
 {
     string formattedResult = "[";
     for (size_t i = 0; i < size(arr); i++)
